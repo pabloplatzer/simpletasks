@@ -3,6 +3,7 @@ import {
   Box,
   Button,
   Flex,
+  Image,
   Stack,
   Text,
   useColorMode,
@@ -27,18 +28,15 @@ export function Navbar() {
         borderColor={useColorModeValue('gray.200', 'gray.900')}
         align="center"
       >
-        <Flex flex={{ base: 1 }} justify="start">
-          <Text
-            as="span"
-            bgGradient="linear(to-l, #675AAA, #4399E1)"
-            bgClip="text"
-            fontWeight="bold"
-            fontFamily="heading"
-            textAlign="left"
-          >
-            Simple Tasks
-          </Text>
-        </Flex>
+      
+   
+
+ <Image
+  src="./images/meteorlogo.png"
+  alt="Aviatica Solutions"
+  boxSize="100px"
+  mr="12px"
+/>
 
         <Stack
           flex={{ base: 1, md: 0 }}
